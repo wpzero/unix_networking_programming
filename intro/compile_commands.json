@@ -1,0 +1,18 @@
+[
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "seq_daytimesrv.o", 
+            "seq_daytimesrv.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/intro", 
+        "file": "seq_daytimesrv.c"
+    }
+]
