@@ -1,0 +1,34 @@
+[
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "inet_ntop.o", 
+            "inet_ntop.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/libfree", 
+        "file": "inet_ntop.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "in_cksum.o", 
+            "in_cksum.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/libfree", 
+        "file": "in_cksum.c"
+    }
+]
