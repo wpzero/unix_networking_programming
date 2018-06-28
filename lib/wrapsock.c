@@ -25,6 +25,8 @@ Accept(int fd, struct sockaddr *sa, socklen_t *salenptr)
 
 again:
 	if ( (n = accept(fd, sa, salenptr)) < 0) {
+                /* 代表accept的链接可能已经是收到了rst的 */
+                /* SVR4 利用EPROTO, POSIX定义用ECONNABORTED */
 #ifdef	EPROTO
 		if (errno == EPROTO || errno == ECONNABORTED)
 #else
