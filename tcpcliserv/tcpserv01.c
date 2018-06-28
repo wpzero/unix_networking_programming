@@ -51,7 +51,12 @@ main(int argc, char *argv[])
 
         for(;;) {
                 len = sizeof(cliaddr);
-                connfd = Accept(listenfd, (SA *)&cliaddr, &len);
+                if((connfd = accept(listenfd, (SA *)&cliaddr, &len)) < 0) {
+                        if(errno == EINTR)
+                                continue;
+                        else
+                                err_sys("accept error");
+                }
                 if((childpid = Fork()) == 0) {
                         Close(listenfd);
                         str_echo(connfd);
