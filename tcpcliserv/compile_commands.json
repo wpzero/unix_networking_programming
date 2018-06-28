@@ -1,0 +1,34 @@
+[
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "tcpserv01.o", 
+            "tcpserv01.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/tcpcliserv", 
+        "file": "tcpserv01.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "tcpcli01.o", 
+            "tcpcli01.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/tcpcliserv", 
+        "file": "tcpcli01.c"
+    }
+]
