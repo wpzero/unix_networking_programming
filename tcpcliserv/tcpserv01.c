@@ -1,4 +1,17 @@
+/* 这个实现是没有wait children的所以会有zombie的process产生 */
+
 #include "unp.h"
+
+
+/* 处理child process wait */
+/* 这是一个比经典的处理方法 */
+void
+sigchld_handler(int signal)
+{
+        /* 非阻塞调用，利用WNOHANG */
+        while (waitpid(-1, NULL, WNOHANG) > 0);
+}
+
 
 void
 str_echo(int connfd)
@@ -33,6 +46,8 @@ main(int argc, char *argv[])
         Bind(listenfd, (SA *)&servaddr, sizeof(servaddr));
 
         Listen(listenfd, LISTENQ);
+
+        Signal(SIGCHLD, sigchld_handler);
 
         for(;;) {
                 len = sizeof(cliaddr);

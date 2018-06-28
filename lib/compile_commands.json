@@ -9,59 +9,11 @@
             "-D_REENTRANT", 
             "-Wall", 
             "-o", 
-            "mcast_join.o", 
-            "mcast_join.c"
+            "mcast_get_loop.o", 
+            "mcast_get_loop.c"
         ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "mcast_join.c"
-    }, 
-    {
-        "arguments": [
-            "cc", 
-            "-c", 
-            "-I../lib", 
-            "-g", 
-            "-O2", 
-            "-D_REENTRANT", 
-            "-Wall", 
-            "-o", 
-            "writen.o", 
-            "writen.c"
-        ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "writen.c"
-    }, 
-    {
-        "arguments": [
-            "cc", 
-            "-c", 
-            "-I../lib", 
-            "-g", 
-            "-O2", 
-            "-D_REENTRANT", 
-            "-Wall", 
-            "-o", 
-            "sock_set_port.o", 
-            "sock_set_port.c"
-        ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "sock_set_port.c"
-    }, 
-    {
-        "arguments": [
-            "cc", 
-            "-c", 
-            "-I../lib", 
-            "-g", 
-            "-O2", 
-            "-D_REENTRANT", 
-            "-Wall", 
-            "-o", 
-            "sock_ntop.o", 
-            "sock_ntop.c"
-        ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "sock_ntop.c"
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "mcast_get_loop.c"
     }, 
     {
         "arguments": [
@@ -76,7 +28,7 @@
             "sockfd_to_family.o", 
             "sockfd_to_family.c"
         ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
         "file": "sockfd_to_family.c"
     }, 
     {
@@ -89,11 +41,11 @@
             "-D_REENTRANT", 
             "-Wall", 
             "-o", 
-            "family_to_level.o", 
-            "family_to_level.c"
+            "read_fd.o", 
+            "read_fd.c"
         ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "family_to_level.c"
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "read_fd.c"
     }, 
     {
         "arguments": [
@@ -105,11 +57,11 @@
             "-D_REENTRANT", 
             "-Wall", 
             "-o", 
-            "udp_server.o", 
-            "udp_server.c"
+            "readline.o", 
+            "readline.c"
         ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "udp_server.c"
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "readline.c"
     }, 
     {
         "arguments": [
@@ -121,11 +73,11 @@
             "-D_REENTRANT", 
             "-Wall", 
             "-o", 
-            "connect_timeo.o", 
-            "connect_timeo.c"
+            "sock_get_port.o", 
+            "sock_get_port.c"
         ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "connect_timeo.c"
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "sock_get_port.c"
     }, 
     {
         "arguments": [
@@ -137,11 +89,11 @@
             "-D_REENTRANT", 
             "-Wall", 
             "-o", 
-            "daemon_inetd.o", 
-            "daemon_inetd.c"
+            "wrapunix.o", 
+            "wrapunix.c"
         ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "daemon_inetd.c"
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "wrapunix.c"
     }, 
     {
         "arguments": [
@@ -153,11 +105,11 @@
             "-D_REENTRANT", 
             "-Wall", 
             "-o", 
-            "host_serv.o", 
-            "host_serv.c"
+            "sock_ntop_host.o", 
+            "sock_ntop_host.c"
         ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "host_serv.c"
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "sock_ntop_host.c"
     }, 
     {
         "arguments": [
@@ -169,11 +121,27 @@
             "-D_REENTRANT", 
             "-Wall", 
             "-o", 
-            "signal.o", 
-            "signal.c"
+            "mcast_set_loop.o", 
+            "mcast_set_loop.c"
         ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "signal.c"
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "mcast_set_loop.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "gf_time.o", 
+            "gf_time.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "gf_time.c"
     }, 
     {
         "arguments": [
@@ -188,8 +156,328 @@
             "my_addrs.o", 
             "my_addrs.c"
         ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
         "file": "my_addrs.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "family_to_level.o", 
+            "family_to_level.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "family_to_level.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "error.o", 
+            "error.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "error.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "tcp_connect.o", 
+            "tcp_connect.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "tcp_connect.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "sock_cmp_port.o", 
+            "sock_cmp_port.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "sock_cmp_port.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "mcast_set_if.o", 
+            "mcast_set_if.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "mcast_set_if.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "wraplib.o", 
+            "wraplib.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "wraplib.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "tcp_listen.o", 
+            "tcp_listen.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "tcp_listen.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "wrappthread.o", 
+            "wrappthread.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "wrappthread.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "udp_connect.o", 
+            "udp_connect.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "udp_connect.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "writable_timeo.o", 
+            "writable_timeo.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "writable_timeo.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "dg_echo.o", 
+            "dg_echo.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "dg_echo.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "signal_intr.o", 
+            "signal_intr.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "signal_intr.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "mcast_join.o", 
+            "mcast_join.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "mcast_join.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "mcast_leave.o", 
+            "mcast_leave.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "mcast_leave.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "sock_ntop.o", 
+            "sock_ntop.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "sock_ntop.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "sock_set_port.o", 
+            "sock_set_port.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "sock_set_port.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "sock_bind_wild.o", 
+            "sock_bind_wild.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "sock_bind_wild.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "mcast_get_ttl.o", 
+            "mcast_get_ttl.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "mcast_get_ttl.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "sock_set_addr.o", 
+            "sock_set_addr.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "sock_set_addr.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "rtt.o", 
+            "rtt.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "rtt.c"
     }, 
     {
         "arguments": [
@@ -204,7 +492,7 @@
             "mcast_set_ttl.o", 
             "mcast_set_ttl.c"
         ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
         "file": "mcast_set_ttl.c"
     }, 
     {
@@ -217,11 +505,59 @@
             "-D_REENTRANT", 
             "-Wall", 
             "-o", 
-            "tv_sub.o", 
-            "tv_sub.c"
+            "mcast_get_if.o", 
+            "mcast_get_if.c"
         ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "tv_sub.c"
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "mcast_get_if.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "daemon_inetd.o", 
+            "daemon_inetd.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "daemon_inetd.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "signal.o", 
+            "signal.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "signal.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "writen.o", 
+            "writen.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "writen.c"
     }, 
     {
         "arguments": [
@@ -236,8 +572,24 @@
             "daemon_init.o", 
             "daemon_init.c"
         ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
         "file": "daemon_init.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "wrapsock.o", 
+            "wrapsock.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "wrapsock.c"
     }, 
     {
         "arguments": [
@@ -252,8 +604,104 @@
             "connect_nonb.o", 
             "connect_nonb.c"
         ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
         "file": "connect_nonb.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "host_serv.o", 
+            "host_serv.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "host_serv.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "get_ifi_info.o", 
+            "get_ifi_info.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "get_ifi_info.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "sock_set_wild.o", 
+            "sock_set_wild.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "sock_set_wild.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "connect_timeo.o", 
+            "connect_timeo.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "connect_timeo.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "str_echo.o", 
+            "str_echo.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "str_echo.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-I../lib", 
+            "-g", 
+            "-O2", 
+            "-D_REENTRANT", 
+            "-Wall", 
+            "-o", 
+            "wrapstdio.o", 
+            "wrapstdio.c"
+        ], 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "wrapstdio.c"
     }, 
     {
         "arguments": [
@@ -268,7 +716,7 @@
             "udp_client.o", 
             "udp_client.c"
         ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
         "file": "udp_client.c"
     }, 
     {
@@ -284,344 +732,8 @@
             "readable_timeo.o", 
             "readable_timeo.c"
         ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
         "file": "readable_timeo.c"
-    }, 
-    {
-        "arguments": [
-            "cc", 
-            "-c", 
-            "-I../lib", 
-            "-g", 
-            "-O2", 
-            "-D_REENTRANT", 
-            "-Wall", 
-            "-o", 
-            "mcast_get_loop.o", 
-            "mcast_get_loop.c"
-        ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "mcast_get_loop.c"
-    }, 
-    {
-        "arguments": [
-            "cc", 
-            "-c", 
-            "-I../lib", 
-            "-g", 
-            "-O2", 
-            "-D_REENTRANT", 
-            "-Wall", 
-            "-o", 
-            "dg_echo.o", 
-            "dg_echo.c"
-        ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "dg_echo.c"
-    }, 
-    {
-        "arguments": [
-            "cc", 
-            "-c", 
-            "-I../lib", 
-            "-g", 
-            "-O2", 
-            "-D_REENTRANT", 
-            "-Wall", 
-            "-o", 
-            "mcast_get_if.o", 
-            "mcast_get_if.c"
-        ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "mcast_get_if.c"
-    }, 
-    {
-        "arguments": [
-            "cc", 
-            "-c", 
-            "-I../lib", 
-            "-g", 
-            "-O2", 
-            "-D_REENTRANT", 
-            "-Wall", 
-            "-o", 
-            "readline.o", 
-            "readline.c"
-        ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "readline.c"
-    }, 
-    {
-        "arguments": [
-            "cc", 
-            "-c", 
-            "-I../lib", 
-            "-g", 
-            "-O2", 
-            "-D_REENTRANT", 
-            "-Wall", 
-            "-o", 
-            "sock_ntop_host.o", 
-            "sock_ntop_host.c"
-        ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "sock_ntop_host.c"
-    }, 
-    {
-        "arguments": [
-            "cc", 
-            "-c", 
-            "-I../lib", 
-            "-g", 
-            "-O2", 
-            "-D_REENTRANT", 
-            "-Wall", 
-            "-o", 
-            "gf_time.o", 
-            "gf_time.c"
-        ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "gf_time.c"
-    }, 
-    {
-        "arguments": [
-            "cc", 
-            "-c", 
-            "-I../lib", 
-            "-g", 
-            "-O2", 
-            "-D_REENTRANT", 
-            "-Wall", 
-            "-o", 
-            "wrappthread.o", 
-            "wrappthread.c"
-        ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "wrappthread.c"
-    }, 
-    {
-        "arguments": [
-            "cc", 
-            "-c", 
-            "-I../lib", 
-            "-g", 
-            "-O2", 
-            "-D_REENTRANT", 
-            "-Wall", 
-            "-o", 
-            "mcast_set_if.o", 
-            "mcast_set_if.c"
-        ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "mcast_set_if.c"
-    }, 
-    {
-        "arguments": [
-            "cc", 
-            "-c", 
-            "-I../lib", 
-            "-g", 
-            "-O2", 
-            "-D_REENTRANT", 
-            "-Wall", 
-            "-o", 
-            "udp_connect.o", 
-            "udp_connect.c"
-        ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "udp_connect.c"
-    }, 
-    {
-        "arguments": [
-            "cc", 
-            "-c", 
-            "-I../lib", 
-            "-g", 
-            "-O2", 
-            "-D_REENTRANT", 
-            "-Wall", 
-            "-o", 
-            "mcast_get_ttl.o", 
-            "mcast_get_ttl.c"
-        ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "mcast_get_ttl.c"
-    }, 
-    {
-        "arguments": [
-            "cc", 
-            "-c", 
-            "-I../lib", 
-            "-g", 
-            "-O2", 
-            "-D_REENTRANT", 
-            "-Wall", 
-            "-o", 
-            "sock_get_port.o", 
-            "sock_get_port.c"
-        ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "sock_get_port.c"
-    }, 
-    {
-        "arguments": [
-            "cc", 
-            "-c", 
-            "-I../lib", 
-            "-g", 
-            "-O2", 
-            "-D_REENTRANT", 
-            "-Wall", 
-            "-o", 
-            "tcp_connect.o", 
-            "tcp_connect.c"
-        ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "tcp_connect.c"
-    }, 
-    {
-        "arguments": [
-            "cc", 
-            "-c", 
-            "-I../lib", 
-            "-g", 
-            "-O2", 
-            "-D_REENTRANT", 
-            "-Wall", 
-            "-o", 
-            "write_fd.o", 
-            "write_fd.c"
-        ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "write_fd.c"
-    }, 
-    {
-        "arguments": [
-            "cc", 
-            "-c", 
-            "-I../lib", 
-            "-g", 
-            "-O2", 
-            "-D_REENTRANT", 
-            "-Wall", 
-            "-o", 
-            "wrapunix.o", 
-            "wrapunix.c"
-        ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "wrapunix.c"
-    }, 
-    {
-        "arguments": [
-            "cc", 
-            "-c", 
-            "-I../lib", 
-            "-g", 
-            "-O2", 
-            "-D_REENTRANT", 
-            "-Wall", 
-            "-o", 
-            "mcast_leave.o", 
-            "mcast_leave.c"
-        ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "mcast_leave.c"
-    }, 
-    {
-        "arguments": [
-            "cc", 
-            "-c", 
-            "-I../lib", 
-            "-g", 
-            "-O2", 
-            "-D_REENTRANT", 
-            "-Wall", 
-            "-o", 
-            "error.o", 
-            "error.c"
-        ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "error.c"
-    }, 
-    {
-        "arguments": [
-            "cc", 
-            "-c", 
-            "-I../lib", 
-            "-g", 
-            "-O2", 
-            "-D_REENTRANT", 
-            "-Wall", 
-            "-o", 
-            "dg_cli.o", 
-            "dg_cli.c"
-        ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "dg_cli.c"
-    }, 
-    {
-        "arguments": [
-            "cc", 
-            "-c", 
-            "-I../lib", 
-            "-g", 
-            "-O2", 
-            "-D_REENTRANT", 
-            "-Wall", 
-            "-o", 
-            "str_echo.o", 
-            "str_echo.c"
-        ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "str_echo.c"
-    }, 
-    {
-        "arguments": [
-            "cc", 
-            "-c", 
-            "-I../lib", 
-            "-g", 
-            "-O2", 
-            "-D_REENTRANT", 
-            "-Wall", 
-            "-o", 
-            "wraplib.o", 
-            "wraplib.c"
-        ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "wraplib.c"
-    }, 
-    {
-        "arguments": [
-            "cc", 
-            "-c", 
-            "-I../lib", 
-            "-g", 
-            "-O2", 
-            "-D_REENTRANT", 
-            "-Wall", 
-            "-o", 
-            "wrapsock.o", 
-            "wrapsock.c"
-        ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "wrapsock.c"
-    }, 
-    {
-        "arguments": [
-            "cc", 
-            "-c", 
-            "-I../lib", 
-            "-g", 
-            "-O2", 
-            "-D_REENTRANT", 
-            "-Wall", 
-            "-o", 
-            "rtt.o", 
-            "rtt.c"
-        ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "rtt.c"
     }, 
     {
         "arguments": [
@@ -636,7 +748,7 @@
             "sock_cmp_addr.o", 
             "sock_cmp_addr.c"
         ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
         "file": "sock_cmp_addr.c"
     }, 
     {
@@ -649,11 +761,11 @@
             "-D_REENTRANT", 
             "-Wall", 
             "-o", 
-            "get_ifi_info.o", 
-            "get_ifi_info.c"
+            "tv_sub.o", 
+            "tv_sub.c"
         ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "get_ifi_info.c"
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "tv_sub.c"
     }, 
     {
         "arguments": [
@@ -665,75 +777,11 @@
             "-D_REENTRANT", 
             "-Wall", 
             "-o", 
-            "signal_intr.o", 
-            "signal_intr.c"
+            "dg_cli.o", 
+            "dg_cli.c"
         ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "signal_intr.c"
-    }, 
-    {
-        "arguments": [
-            "cc", 
-            "-c", 
-            "-I../lib", 
-            "-g", 
-            "-O2", 
-            "-D_REENTRANT", 
-            "-Wall", 
-            "-o", 
-            "str_cli.o", 
-            "str_cli.c"
-        ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "str_cli.c"
-    }, 
-    {
-        "arguments": [
-            "cc", 
-            "-c", 
-            "-I../lib", 
-            "-g", 
-            "-O2", 
-            "-D_REENTRANT", 
-            "-Wall", 
-            "-o", 
-            "read_fd.o", 
-            "read_fd.c"
-        ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "read_fd.c"
-    }, 
-    {
-        "arguments": [
-            "cc", 
-            "-c", 
-            "-I../lib", 
-            "-g", 
-            "-O2", 
-            "-D_REENTRANT", 
-            "-Wall", 
-            "-o", 
-            "sock_set_addr.o", 
-            "sock_set_addr.c"
-        ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "sock_set_addr.c"
-    }, 
-    {
-        "arguments": [
-            "cc", 
-            "-c", 
-            "-I../lib", 
-            "-g", 
-            "-O2", 
-            "-D_REENTRANT", 
-            "-Wall", 
-            "-o", 
-            "sock_cmp_port.o", 
-            "sock_cmp_port.c"
-        ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "sock_cmp_port.c"
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "dg_cli.c"
     }, 
     {
         "arguments": [
@@ -748,7 +796,7 @@
             "readn.o", 
             "readn.c"
         ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
         "file": "readn.c"
     }, 
     {
@@ -761,11 +809,11 @@
             "-D_REENTRANT", 
             "-Wall", 
             "-o", 
-            "writable_timeo.o", 
-            "writable_timeo.c"
+            "str_cli.o", 
+            "str_cli.c"
         ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "writable_timeo.c"
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "str_cli.c"
     }, 
     {
         "arguments": [
@@ -777,11 +825,11 @@
             "-D_REENTRANT", 
             "-Wall", 
             "-o", 
-            "mcast_set_loop.o", 
-            "mcast_set_loop.c"
+            "udp_server.o", 
+            "udp_server.c"
         ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "mcast_set_loop.c"
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "udp_server.c"
     }, 
     {
         "arguments": [
@@ -793,58 +841,10 @@
             "-D_REENTRANT", 
             "-Wall", 
             "-o", 
-            "wrapstdio.o", 
-            "wrapstdio.c"
+            "write_fd.o", 
+            "write_fd.c"
         ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "wrapstdio.c"
-    }, 
-    {
-        "arguments": [
-            "cc", 
-            "-c", 
-            "-I../lib", 
-            "-g", 
-            "-O2", 
-            "-D_REENTRANT", 
-            "-Wall", 
-            "-o", 
-            "sock_set_wild.o", 
-            "sock_set_wild.c"
-        ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "sock_set_wild.c"
-    }, 
-    {
-        "arguments": [
-            "cc", 
-            "-c", 
-            "-I../lib", 
-            "-g", 
-            "-O2", 
-            "-D_REENTRANT", 
-            "-Wall", 
-            "-o", 
-            "sock_bind_wild.o", 
-            "sock_bind_wild.c"
-        ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "sock_bind_wild.c"
-    }, 
-    {
-        "arguments": [
-            "cc", 
-            "-c", 
-            "-I../lib", 
-            "-g", 
-            "-O2", 
-            "-D_REENTRANT", 
-            "-Wall", 
-            "-o", 
-            "tcp_listen.o", 
-            "tcp_listen.c"
-        ], 
-        "directory": "/home/wpzero/workspace/c_workspace/unix_networking_programming/lib", 
-        "file": "tcp_listen.c"
+        "directory": "/home/wpzero/workspace/c_workspace/wp_unix_networking_programming/lib", 
+        "file": "write_fd.c"
     }
 ]
